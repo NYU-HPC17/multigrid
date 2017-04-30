@@ -1,6 +1,6 @@
 EXECS=jacobi multigrid_1d
 CC=gcc
-FLAGS=-O3 -Wall -g
+FLAGS=-O3 -Wall -g -lrt -lm
 
 all: ${EXECS}
 
